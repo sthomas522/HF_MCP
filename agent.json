@@ -1,0 +1,20 @@
+{
+    "_description": "Playwright browser automation agent using Nebius provider",
+    "_notes": [
+        "Make sure mcp-server-playwright is globally installed",
+        "This config uses the direct command approach",
+        "SSL issues may require certificate fixes",
+        "tiny-agents run agent.json"
+    ],
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "provider": "nebius",
+    "servers": [
+        {
+            "_comment": "Playwright MCP server for browser automation tools",
+            "type": "stdio",
+            "config": {
+                "command": "mcp-server-playwright"
+            }
+        }
+    ]
+}
