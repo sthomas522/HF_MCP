@@ -16,6 +16,9 @@ def test_gradio_connection():
         
         print("\n🎉 Connection test successful!")
         print("💡 You can now run the smart agent with confidence")
+
+        print("Client api")
+        print(client.view_api())
         
         return True
         
