@@ -11,3 +11,4 @@ Expanding the course content to include a git diff test mcp
 claude mcp add pr-agent -- uv --directory $(pwd) run server.py
 
 testing quick change
+testing automation pipeline
